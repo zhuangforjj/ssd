@@ -80,18 +80,18 @@ R-树在当今广泛运用于GIS app，多用于描述一个空间（这里是�
 基于闪存固态硬盘的空间数据结构查询更新优化：
 （1空间数据结构、2优化方案、3SQLlite、4固态硬盘阵）
 第一周期：
-1.分析各种数据结构：
+1.分析各种数据结构：（1、阅读现有的方法，总结一波相似特性，一并做优化；2、挨个）
 	格子文件及其变形（散列方法）：
-		
 	四又树及其变形树：
 	k-d树及其变形树：
 	R树及其变形树：
-2.爬取数据信息（实验用）；
+2.爬取数据信息（实验用）；（https://blog.csdn.net/aaronjny/category_6786131.html）
 3.选取数据库存储数据（SQLlite）；
 4.固态硬盘模拟器（疑惑：固态硬盘模拟器是模拟一个新的磁盘（像C盘D盘），还是将硬盘中的一块数据模拟成固态硬盘，我们能从固态硬盘获得这块区域的读写效率）：
 	flashsim:https://blog.csdn.net/Eidosper/article/details/46458469
 		 http://cighao.com/tags/flashsim/
-	paper:基于NAND Flash存储器的FTL优化算法的设计与实现、一种改进型的SSD FTL算法
+	paper:基于NAND Flash存储器的FTL优化算法的设计与实现、一种改进型的SSD FTL算法、基于加权自学习散列的高维数据最近邻查询算法
+	      基于KD-Tree聚类的社交用户画像建模、基于MongoDB的R树索引设计与实现
 	simplessd:https://docs.simplessd.org/download.html
 	Flashsim，SSDSim，Disksim，SSD Extension
 	将固态硬盘模拟器装在ubentu上面，然后将其搭建好数据库的环境，将数据库的信息写进去（固态硬盘模拟器中），进行增删改查查看效率；
