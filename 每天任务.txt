@@ -93,7 +93,8 @@ R-树在当今广泛运用于GIS app，多用于描述一个空间（这里是�
 		 http://cighao.com/tags/flashsim/
 	paper:基于NAND Flash存储器的FTL优化算法的设计与实现、一种改进型的SSD FTL算法、基于加权自学习散列的高维数据最近邻查询算法
 	      基于KD-Tree聚类的社交用户画像建模、基于MongoDB的R树索引设计与实现、基于负载感知的固态硬盘缓存管理优化
-	      固态硬盘RAID阵列技术进展、一种基于四叉树的大规模影像数据库构建方法
+	      固态硬盘RAID阵列技术进展、一种基于四叉树的大规模影像数据库构建方法、基于《中国索引》数据库索引成果分析的智能索引系统优化研究
+	      红黑树优化的SQLite索引在测速系统中的应用、Android数据库SQLite性能优化
 	simplessd:https://docs.simplessd.org/download.html
 	Flashsim，SSDSim，Disksim，SSD Extension
 	将固态硬盘模拟器装在ubentu上面，然后将其搭建好数据库的环境，将数据库的信息写进去（固态硬盘模拟器中），进行增删改查查看效率；
