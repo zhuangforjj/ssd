@@ -87,6 +87,7 @@ R-树在当今广泛运用于GIS app，多用于描述一个空间（这里是�
 	R树及其变形树：
 2.爬取数据信息（实验用）；（1、https://blog.csdn.net/aaronjny/category_6786131.html  2、Python3网络爬虫开发实战（书））
 3.选取数据库存储数据（SQLlite）；
+	https://www.cnblogs.com/homejim/p/9613205.html：利用maven项目，结合mybatis框架实现数据库的读写，还有数据库的插入和查询
 4.固态硬盘模拟器（疑惑：固态硬盘模拟器是模拟一个新的磁盘（像C盘D盘），还是将硬盘中的一块数据模拟成固态硬盘，我们能从固态硬盘获得这块区域的读写效率）：
 	flashsim:https://blog.csdn.net/Eidosper/article/details/46458469
 		 http://cighao.com/tags/flashsim/
